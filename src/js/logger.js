@@ -1,3 +1,6 @@
-const logMessage = msg => console.log(msg)
+import  console from 'console';
+// Log message to console
 
-export default logMessage
+const logger = msg =>  console.info(msg);
+
+export  default  logger;

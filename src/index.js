@@ -1,7 +1,5 @@
-import logMessage from './js/logger'
 import './css/style.css'
-
-// Log message to console
-logMessage('Its finished!!')
+import logger from "./js/logger";
+logger('hello this is test');
 
 module.hot.accept() // eslint-disable-line no-undef
